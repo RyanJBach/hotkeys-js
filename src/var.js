@@ -93,7 +93,7 @@ const _mods = {
 const _handlers = {};
 
 // F1~F12 special key
-for (let k = 1; k < 20; k++) {
+for (let k = 1; k < 25; k++) {
   _keyMap[`f${k}`] = 111 + k;
 }
 
